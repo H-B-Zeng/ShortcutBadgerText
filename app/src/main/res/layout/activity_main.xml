@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewHomePackage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"></TextView>
+
+    <EditText
+        android:id="@+id/numInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHomePackage"
+        android:inputType="numberDecimal"></EditText>
+
+    <Button
+        android:id="@+id/btnSetBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numInput"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="設定次數"></Button>
+
+
+</RelativeLayout>
